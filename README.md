@@ -1,7 +1,7 @@
 ## Quick Start
 
 ### Prerequisites
-- **Node.js** (v20+) - [Download](https://nodejs.org/)
+- **Node.js** (v20+) 
 - **npm** (comes with Node.js)
 
 ### Run Instructions
