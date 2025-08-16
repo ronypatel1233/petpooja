@@ -1,28 +1,41 @@
+## Quick Start
 
-## Getting started
+### Prerequisites
+- **Node.js** (v20+) 
+- **npm** (comes with Node.js)
 
-> **Prerequisites:**
-> The following steps require [NodeJS](https://nodejs.org/en/) to be installed on your system, so please
-> install it beforehand if you haven't already.
-
-To get started with your project, you'll first need to install the dependencies with:
-
-```
+### Run Instructions
+```bash
+# 1. Install dependencies
 npm install
-```
 
-Then, you'll be able to run a development version of the project with:
-
-```
+# 2. Start development server
 npm run dev
+
+# 3. Open browser
+http://localhost:3000
 ```
 
-After a few seconds, your project should be accessible at the address
-[http://localhost:3000/](http://localhost:3000/)
+### Available Commands
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Alternative dev command
 
+## Tools & Technologies Used
 
-If you are satisfied with the result, you can finally build the project for release with:
+### **Core Framework**
+- **React** v18.2.0 - Frontend library
+- **Vite** v6.0.4 - Build tool & dev server
+- **Tailwind CSS** v3.4.16 - Styling framework
 
-```
-npm run build
-```
+### **Dependencies**
+- **React DOM** v18.2.0 - DOM rendering
+- **React Router DOM** v6.8.1 - Client-side routing
+- **Tailwind CSS Animate** v1.0.7 - Animation utilities
+
+### **Development Tools**
+- **ESBuild** v0.24.0 - Fast bundler
+- **PostCSS** - CSS processing
+- **Vite Plugin React** v4.3.4 - React support
+
+---
